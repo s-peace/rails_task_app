@@ -1,4 +1,6 @@
 class SessionsController < ApplicationController
+  skip_before_action :login_required
+  
   def new
   end
 
@@ -9,7 +11,7 @@ class SessionsController < ApplicationController
       session[:user_id] = user.id
       redirect_to root_path, notice: 'ログインしました。'
     else
-      render: new
+      render :new
     end
   end
 
