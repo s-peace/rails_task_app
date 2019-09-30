@@ -72,3 +72,6 @@ gem 'bootstrap'
 
 #autolink
 gem 'rails_autolink'
+
+#ransack
+gem 'ransack'
