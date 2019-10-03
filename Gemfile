@@ -75,3 +75,6 @@ gem 'rails_autolink'
 
 #ransack
 gem 'ransack'
+
+#pagenation
+gem 'kaminari'
