@@ -1,4 +1,6 @@
 class Task < ApplicationRecord
+
+  # paginates_per 30
     
   before_validation :set_nameless_name
 

@@ -78,3 +78,6 @@ gem 'ransack'
 
 #pagenation
 gem 'kaminari'
+
+#job_schedule
+gem 'sidekiq'
