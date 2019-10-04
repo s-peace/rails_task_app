@@ -81,3 +81,6 @@ gem 'kaminari'
 
 #job_schedule
 gem 'sidekiq'
+
+#webpacker
+gem 'webpacker', github: 'rails/webpacker'
